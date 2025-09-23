@@ -69,5 +69,10 @@ FitHive/
 └── README.md
 
 
+--> ScreenShorts Of Pages
+1) Home page
+![home page](https://github.com/Krsumit1002/Fithive/blob/f63353a58aeef752bce2f22f44964edcb17b6aa0/Fithive_home_page%20-%20Copy.png)
+
+
 --> 📜 License
 This project is licensed under the MIT License.
