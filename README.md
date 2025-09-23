@@ -74,10 +74,10 @@ FitHive/
 ![home page](https://github.com/Krsumit1002/Fithive/blob/f63353a58aeef752bce2f22f44964edcb17b6aa0/Fithive_home_page%20-%20Copy.png)
 
 2) Features page
-![features page]()
+![features page](https://github.com/Krsumit1002/Fithive/blob/c5ea6fd6135e738f5f8ba0958b9780b38d08e10d/Fithive_features_page%20-%20Copy.png)
 
 3) Blogs page
-![blogs page]
+![blogs page]()
 
 4) Bottom page
 ![bottom page](https://github.com/Krsumit1002/Fithive/blob/2be1aa775aa39aa46d51e2ee8df8dbe68e811527/Fithive_footer_page%20-%20Copy%20(2).png)
