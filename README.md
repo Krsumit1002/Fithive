@@ -73,6 +73,15 @@ FitHive/
 1) Home page
 ![home page](https://github.com/Krsumit1002/Fithive/blob/f63353a58aeef752bce2f22f44964edcb17b6aa0/Fithive_home_page%20-%20Copy.png)
 
+2) Features page
+![features page]()
+
+3) Blogs page
+![blogs page]
+
+4) Bottom page
+![bottom page]
+
 
 --> 📜 License
 This project is licensed under the MIT License.
