@@ -150,7 +150,7 @@ const Features = () => {
           <CTA/>
         </div>
       </div>
-      <div className="relative"><Footer/></div>
+      <div className="relative bg-black"><Footer/></div>
     </div>
   );
 };
