@@ -24,18 +24,18 @@ const Home = () => {
   };
 
   return (
-    <div className="bg-black relative overflow-hidden h-full w-full">
+    <div className="bg-black space-y-20 relative overflow-hidden h-full w-full">
       {/* Background */}
       <div
         style={{ width: "100%", height: "600px", position: "absolute" }}
         className="z-0"
       >
-        <Orb
+        {/* <Orb
           hoverIntensity={0.5}
           rotateOnHover={true}
           hue={0}
           forceHoverState={false}
-        />
+        /> */}
       </div>
 
       {/* NavBar */}
@@ -189,7 +189,7 @@ const Home = () => {
           >
             <div className="text-white px-6 sm:px-8 lg:px-12 max-w-[350px] sm:max-w-[500px] md:max-w-[850px] lg:max-w-[1200px] mx-auto text-center">
               <motion.p
-                className="text-gray-300 text-lg leading-relaxed mb-6"
+                className="text-gray-300 text-lg mt-15 leading-relaxed mb-6"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}

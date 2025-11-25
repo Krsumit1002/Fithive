@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { handleError, handleSuccess } from '../utils';
 
+const main_url=import.meta.env.VITE_BACKEND_URL;
+
 const Login = () => {
   const [loginInfo,setLoginInfo]=useState({
     email:'',
@@ -11,7 +13,7 @@ const Login = () => {
   const navigate=useNavigate()
   const handleChange=(e)=>{
      const {name,value}=e.target;
-     console.log(name,value)
+    //  console.log(name,value)
      const copyLoginInfo={...loginInfo}
      copyLoginInfo[name]=value;
      setLoginInfo(copyLoginInfo)
@@ -23,7 +25,7 @@ const Login = () => {
       return handleError('All the fields are required')
     }
     try{
-      const url="http://localhost:8080/auth/login"
+      const url= `${main_url}/login`
       const response=await fetch(url,{
         method:"POST",
         headers:{
